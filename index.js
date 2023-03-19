@@ -1,7 +1,8 @@
 // Code your solutions in this file
 const gifts=["Guadalupe", "Ollie", "Aki"];
 function writeCards(){
-    const response=[];
+    const response=[]; 
+    
     let j;
     for(j=0; j<gifts.length; j++){
        response[j]=`Thank you, ${gifts[j]}, for the wonderful surprise gift!`    }
